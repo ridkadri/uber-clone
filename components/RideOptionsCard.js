@@ -72,7 +72,7 @@ const RideOptionsCard = () => {
                         <Text style={tw `text-xl`}>
                             {new Intl.NumberFormat('en-us', {
                                 style: 'currency',
-                                currency: 'USD',
+                                currency: 'GHC',
                             }).format((travelTimeInformation?.duration.value * SURGE_CHARGE_RATE * multiplier)/100)}
                         </Text>
                     </TouchableOpacity>
